@@ -7,9 +7,11 @@ const nextConfig = {
   output: "export",
   basePath: "/portfolio_react",
   assetPrefix: "/portfolio_react/",
+  trailingSlash: true,
   pageExtensions: ["ts", "tsx", "mdx"],
   images: {
     formats: ["image/avif", "image/webp"],
+    unoptimized: true,
   },
   experimental: {
     mdxRs: true,
