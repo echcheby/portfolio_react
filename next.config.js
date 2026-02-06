@@ -1,11 +1,9 @@
-import type { NextConfig } from "next";
-import createMDX from "@next/mdx";
-
-const withMDX = createMDX({
+/** @type {import('next').NextConfig} */
+const withMDX = require("@next/mdx")({
   extension: /\.mdx$/,
 });
 
-const nextConfig: NextConfig = {
+const nextConfig = {
   pageExtensions: ["ts", "tsx", "mdx"],
   images: {
     formats: ["image/avif", "image/webp"],
@@ -18,4 +16,4 @@ const nextConfig: NextConfig = {
   },
 };
 
-export default withMDX(nextConfig);
+module.exports = withMDX(nextConfig);

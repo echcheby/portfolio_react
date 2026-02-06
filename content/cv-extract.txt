@@ -1,0 +1,46 @@
+ECH-CHEBABYMOHAMED
+Curriculum Vitae
+Faculty of Sciences and Techniques
+Sultan Moulay Slimane University,
+Beni Mellal, Morocco.
+H+2127-067-031-29
+Bmohamed.ech-chebaby@usms.ma
+ÍMy Portfolio
+/♀nednLinkedin
+Education
+2023–present PhD, Computer Science & Wireless Security,Faculty of Sciences and Techniques, Sultan
+Moulay Slimane University, Beni Mellal, Morocco.
+Iot Security: Authentication and Authorisation
+2021–2023 : Faculty of Sciences and Techniques,Sultan Moulay Slimane University, Beni Mellal, Morocco.
+2017–2021 : Bachelor of Engineering, Computer Science & Technology,Faculty of Sciences and Tech-
+niques, Sultan Moulay Slimane University, Beni Mellal, Morocco.
+Publications
+Journal Articles
+2025Ech-Chebaby, Mohamed, Hicham Zougagh, Hamid Garmani, and Zouhair Elhadari. A secure
+authentication protocol for iot devices.International Journal of Advanced Computer Science and
+Applications, 2025.
+2025 Zouhair Elhadari, Hicham Zougagh, Noureddine Idboufker, andEch-Chebaby, Mohamed.
+Survey on the adoption of blockchain technology in internet of things environments: Techniques,
+challenges and future research directions.IAENG International Journal of Computer Science,
+2025.
+2025 Zouhair Elhadari, Hicham Zougagh, Noureddine Idboufker, MohamedEch-Chebaby, and Soufiane
+Elouaham. A secure data storage model for wearable medical iot devices using blockchain
+technology.IAENG International Journal of Computer Science, 2025.
+In Conference Proceedings
+2026 Zouhair Elhadari, Hicham Zougagh, Noureddine Idboufker, andEch-Chebaby, Mohamed.
+Blockchain architecture for healthcare iot systems: An architectural comparison. InIntegration
+of Advanced Systems in Environmental Science and Water Desalination, pages 1–8. CRC Press,
+1 edition, 2026.
+2025 Ech-Chebaby, Mohamed, Hicham Zougagh, Hamid Garmani, Zouhair Elhadari, and Noureddine
+Idboufker. Enhanced ecc-based authentication protocol for iot devices m2c. InLecture Notes in
+Networks and Systems. Springer, 2025.
+Computer skills
+Programming
+Languages
+Python, PyTorch, keras, R, C, C++, Advanced JAVA
+Web
+Technologies
+HTML 5, PHP, JSP, Javascript
+Database SQL, MySQL, Apache, Neo4j
+Teaching Assistantship
+Fall, 2025 :A and P: Algorithme and C language.
