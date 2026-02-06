@@ -1,0 +1,2 @@
+:HL["/portfolio_react/_next/static/chunks/7eac7f3980351da3.css","style"]
+0:{"buildId":"LBPvd8re-JXhP8mxwUHK0","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"/_not-found","paramType":null,"paramKey":"/_not-found","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
