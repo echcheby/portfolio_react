@@ -9,6 +9,9 @@ const nextConfig = {
   assetPrefix: "/portfolio_react/",
   trailingSlash: true,
   pageExtensions: ["ts", "tsx", "mdx"],
+  env: {
+    NEXT_PUBLIC_BASE_PATH: "/portfolio_react",
+  },
   images: {
     formats: ["image/avif", "image/webp"],
     unoptimized: true,

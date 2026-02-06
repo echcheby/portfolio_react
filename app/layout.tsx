@@ -4,6 +4,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ThemeProvider from "@/components/ThemeProvider";
+import Chatbot from "@/components/Chatbot";
 import { Analytics } from "./analytics";
 import { baseMetadata } from "@/lib/seo";
 
@@ -33,6 +34,7 @@ export default function RootLayout({
           <main id="main" className="mx-auto w-full max-w-6xl px-6 py-12">
             {children}
           </main>
+          <Chatbot />
           <Footer />
         </ThemeProvider>
       </body>

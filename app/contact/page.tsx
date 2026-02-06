@@ -26,11 +26,11 @@ export default function ContactPage() {
         <Reveal>
           <div className="glass rounded-2xl border border-slate-200/70 p-6 shadow-soft dark:border-slate-800/70">
           <p className="text-sm font-semibold text-ink dark:text-mist">Email</p>
-          <p className="mt-2 text-sm text-slate-600 dark:text-slate-300">Bmohamed.ech-chebaby@usms.ma</p>
+          <p className="mt-2 text-sm text-slate-600 dark:text-slate-300">mohamed.ech-chebaby@usms.ma</p>
           <p className="mt-1 text-sm text-slate-600 dark:text-slate-300">+212 7 067 031 29</p>
           <Link
-            href="mailto:Bmohamed.ech-chebaby@usms.ma"
-            className="mt-4 inline-flex rounded-full bg-accent px-5 py-2 text-xs font-semibold uppercase tracking-wide text-white"
+            href="mailto:mohamed.ech-chebaby@usms.ma"
+            className="mt-4 inline-flex rounded-full border border-slate-200/70 bg-white/80 px-5 py-2 text-xs font-semibold uppercase tracking-wide text-slate-700 shadow-soft transition hover:border-accent hover:text-accent dark:border-slate-700 dark:bg-slate-900/60 dark:text-slate-100"
           >
             Send email
           </Link>

@@ -1,5 +1,6 @@
 import DocumentLink from "@/components/DocumentLink";
 import Reveal from "@/components/Reveal";
+import { withBasePath } from "@/lib/paths";
 import { createMetadata } from "@/lib/seo";
 
 export const metadata = createMetadata({
@@ -24,9 +25,28 @@ export default function CvPage() {
       <div className="grid gap-6 md:grid-cols-[1.4fr_0.6fr]">
         <Reveal>
           <div className="glass rounded-2xl border border-slate-200/70 p-4 shadow-soft dark:border-slate-800/70">
-          <object data="/cv.pdf" type="application/pdf" className="h-[720px] w-full rounded-xl" aria-label="CV PDF preview">
-            <p className="text-sm text-slate-600 dark:text-slate-300">Your browser cannot preview PDFs. Use the download button.</p>
-          </object>
+          <div className="space-y-4">
+            <div className="md:hidden space-y-3 rounded-xl border border-dashed border-slate-300/70 bg-white/70 p-4 text-sm text-slate-600 dark:border-slate-700/70 dark:bg-slate-900/40 dark:text-slate-300">
+              <p className="font-semibold text-ink dark:text-mist">PDF preview isn’t supported on some mobile browsers.</p>
+              <p>Open the CV in a new tab or use the download button to view it.</p>
+              <a
+                href={withBasePath("/cv.pdf")}
+                target="_blank"
+                rel="noreferrer"
+                className="btn-primary inline-flex items-center justify-center"
+              >
+                Open CV in new tab
+              </a>
+            </div>
+            <object
+              data={withBasePath("/cv.pdf")}
+              type="application/pdf"
+              className="hidden h-[720px] w-full rounded-xl md:block"
+              aria-label="CV PDF preview"
+            >
+              <p className="text-sm text-slate-600 dark:text-slate-300">Your browser cannot preview PDFs. Use the download button.</p>
+            </object>
+          </div>
           </div>
         </Reveal>
         <div className="space-y-4">

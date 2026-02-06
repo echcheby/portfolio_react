@@ -7,6 +7,7 @@ import PublicationCard from "@/components/PublicationCard";
 import ProjectCard from "@/components/ProjectCard";
 import { getProjects, getPublications } from "@/lib/mdx";
 import { createMetadata } from "@/lib/seo";
+import { withBasePath } from "@/lib/paths";
 
 export const metadata = createMetadata({
   title: "Home",
@@ -56,7 +57,7 @@ export default function Home() {
             <div className="glass hover-lift flex flex-col items-center gap-4 rounded-3xl border border-slate-200/70 p-8 shadow-soft dark:border-slate-800/70">
               <div className="portrait overflow-hidden">
                 <Image
-                  src="/profile.jpg"
+                  src={withBasePath("/profile.jpg")}
                   alt="Mohamed Ech-Chebaby portrait"
                   width={220}
                   height={220}
