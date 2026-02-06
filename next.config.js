@@ -4,6 +4,9 @@ const withMDX = require("@next/mdx")({
 });
 
 const nextConfig = {
+  output: "export",
+  basePath: "/portfolio_react",
+  assetPrefix: "/portfolio_react/",
   pageExtensions: ["ts", "tsx", "mdx"],
   images: {
     formats: ["image/avif", "image/webp"],
